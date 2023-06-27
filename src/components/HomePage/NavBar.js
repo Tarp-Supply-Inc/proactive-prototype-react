@@ -1,30 +1,44 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import brand_icon from '../../assets/proactive-team-icon.png'
-import Image from 'react-bootstrap/Image';
 import './NavBar.css'
+import {Col, Row} from "react-bootstrap";
 
 const NavBar = () => {
     return (
-        <div className="nav-bar">
-            <div className="brand-icon-wrapper">
-                <img src={brand_icon} alt="brand icon" className="brand-icon"/>
-            </div>
-            <div className="nav-links">
-                <a href="#service">Service</a>
-                <a href="#work">Work</a>
-                <a href="#about">About</a>
-                <a href="#contact-us">Contact Us</a>
-            </div>
 
-            <div>
-                <button>Get Started</button>
-            </div>
+        <Container className="nav-bar" fluid>
+            <Row>
+                <Col sm={6}>
+                    <img src={brand_icon} alt="brand icon" className="brand-icon"/>
+                </Col>
 
 
-        </div>
+                <Col>
+                    <Row style={{alignItems: "center"}}>
+                        <Col sm={2}>
+                            <a href="#services">Services</a>
+                        </Col>
+
+                        <Col sm={2}>
+                            <a href="#work">Work</a>
+                        </Col>
+
+                        <Col sm={2}>
+                            <a href="#about">About</a>
+                        </Col>
+
+                        <Col sm={2}>
+                            <a href="#contact-us">Contact Us</a>
+                        </Col>
+                    </Row>
+
+
+                </Col>
+
+            </Row>
+        </Container>
+
     );
 };
 

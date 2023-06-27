@@ -1,16 +1,21 @@
-.nav-bar{
-    display: flex !important;
-    justify-content: space-around !important;
+.nav-bar {
+    margin-top: 50px;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: space-around;
 }
 
-.nav-links a{
-    text-decoration: none;
+a {
+    text-decoration: none !important;
+    color: #10101A !important;
+    font: normal normal bold 18px/24px Open Sans;
+
 }
-.brand-icon{
-    width:200px;
+
+.brand-icon {
+    width: 344px;
+    height: 57px;
+    margin-left: 10rem;
 }
