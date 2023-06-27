@@ -103,15 +103,15 @@ const HomePage = () => {
 
                     <Col>
                         <div className="case-study-section-right-column">
-                            <h2>Case Study: Tarp Supply Inc.</h2>
-                            <p>
+                            <h2 className="case-study-section-right-column-title">Case Study: Tarp Supply Inc.</h2>
+                            <p className="case-study-section-right-column-paragraph">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
                                 aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
                                 faucibus. Vestibulum eu quam a nunc venenatis interdum venenatis. Pellentesque pulvinar
                                 odio nec arcu maximus vestibulum.
                             </p>
 
-                            <button>
+                            <button className="case-study-section-right-column-button">
                                 Learn More
                             </button>
                         </div>
@@ -119,6 +119,52 @@ const HomePage = () => {
                 </Row>
 
 
+            </Container>
+
+            {/*About us section*/}
+            <Container className="about-us-section" fluid>
+                <Row className="about-us-section-first-row">
+                    <Col sm={6}>
+                        <div className="about-us-section-left-column">
+                            <h2 className="about-us-section-left-column-title">About Us</h2>
+                            <p className="about-us-section-left-column-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
+                                aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
+                                faucibus. Vestibulum eu quam a nunc venenatis interdum venenatis. Pellentesque pulvinar
+                                odio nec arcu maximus vestibulum.
+                            </p>
+
+                            <button className="about-us-section-left-column-button">
+                                Learn More
+                            </button>
+                        </div>
+                    </Col>
+
+                    <Col>
+                        <div className="about-us-section-right-column">
+
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+
+            {/*Testimonials section*/}
+            <Container className="testimonial-section" fluid>
+                <Row className="testimonial-section-first-row">
+                    <Col>
+
+                        <h2 className="testimonial-section-title">Testimonials</h2>
+                    </Col>
+
+                </Row>
+                <Row className="testimonial-section-second-row">
+                    <div className="testimonial-section-second-row-inner-wrapper">
+                        <Col></Col>
+                        <Col></Col>
+                        <Col></Col>
+                    </div>
+
+                </Row>
             </Container>
 
 

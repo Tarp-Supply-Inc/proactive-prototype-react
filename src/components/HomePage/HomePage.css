@@ -124,8 +124,8 @@
     margin-bottom: 10px;
 }
 
-/*case study section*/
-.case-study-section {
+/*case study and about us section*/
+.case-study-section, .about-us-section {
     margin-top: 8rem;
 }
 
@@ -133,7 +133,7 @@
     align-items: center;
 }
 
-.case-study-section-left-column {
+.case-study-section-left-column, .about-us-section-right-column {
     background: #C2C2C2 0 0 no-repeat padding-box;
     border-radius: 10px;
     height: 350px;
@@ -145,3 +145,53 @@
     display: flex;
     flex-direction: column;
 }
+
+.case-study-section-right-column-title, .about-us-section-left-column-title {
+    text-align: left;
+    color: #10101A;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.case-study-section-right-column-paragraph, .about-us-section-left-column-paragraph {
+    color: #707070;
+    font: normal normal normal 16px/21px Segoe UI;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.case-study-section-right-column-button, .about-us-section-left-column-button {
+    width: 258px;
+    height: 76px;
+    background: #7A7A7A 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    font: normal normal bold 20px/27px Segoe UI;
+    color: #FFFFFF;
+}
+
+
+.about-us-section-first-row {
+    align-items: center;
+}
+
+.about-us-section-left-column {
+    margin-left: 10rem;
+}
+
+/*Testimonial*/
+.testimonial-section{
+    margin-top: 10rem;
+}
+.testimonial-section-title{
+    color: #10101A;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonial-section-second-row-inner-wrapper{
+
+}
+
