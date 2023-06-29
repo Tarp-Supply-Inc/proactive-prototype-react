@@ -124,8 +124,8 @@
     margin-bottom: 10px;
 }
 
-/*case study and about us section*/
-.case-study-section, .about-us-section {
+/*case study and why proactive team section*/
+.case-study-section, .why-proactive-team-section {
     margin-top: 8rem;
 }
 
@@ -133,20 +133,27 @@
     align-items: center;
 }
 
-.case-study-section-left-column, .about-us-section-right-column {
-    background: #C2C2C2 0 0 no-repeat padding-box;
+.case-study-section-left-column{
     border-radius: 10px;
     height: 350px;
     width: 669px;
     margin-left: 10rem;
 }
 
+
+
+.case-study-image{
+    height: 100%;
+    object-fit: contain;
+}
 .case-study-section-right-column {
     display: flex;
     flex-direction: column;
+    width: 80%;
+
 }
 
-.case-study-section-right-column-title, .about-us-section-left-column-title {
+.case-study-section-right-column-title, .why-proactive-team-section-left-column-title {
     text-align: left;
     color: #10101A;
     font-size: 45px;
@@ -154,17 +161,17 @@
     margin-bottom: 5rem;
 }
 
-.case-study-section-right-column-paragraph, .about-us-section-left-column-paragraph {
+.case-study-section-right-column-paragraph, .why-proactive-team-section-left-column-paragraph {
     color: #707070;
     font: normal normal normal 16px/21px Segoe UI;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
-.case-study-section-right-column-button, .about-us-section-left-column-button {
+.case-study-section-right-column-button, .why-proactive-team-section-left-column-button {
     width: 258px;
     height: 76px;
-    background: #7A7A7A 0 0 no-repeat padding-box;
+    background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 10px;
     border: none;
     font: normal normal bold 20px/27px Segoe UI;
@@ -172,12 +179,17 @@
 }
 
 
-.about-us-section-first-row {
+.why-proactive-team-section-first-row {
     align-items: center;
 }
 
-.about-us-section-left-column {
+.why-proactive-team-section-left-column {
     margin-left: 10rem;
+}
+
+.why-proactive-team-image{
+    width: 80%;
+    object-fit: contain;
 }
 
 /*Testimonial*/
@@ -191,7 +203,118 @@
     text-align: center;
 }
 
-.testimonial-section-second-row-inner-wrapper{
+.testimonial-section-first-row{
+    justify-content: center;
+}
+.testimonial-section-first-row-inner-wrapper{
+    height: 474px;
+    background: #7878FF 0 0 no-repeat padding-box;
+    border-radius: 0px 15px;
+}
+
+.testimonial-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color:  #FFFFFF;
+}
+
+.testimonial-title{
+    margin-bottom: 3rem;
 
 }
 
+.testimonial-body{
+    width: 55%;
+}
+
+.testimonial-giver{
+    font-weight: 600;
+}
+
+/*Contact us section*/
+.contact-us-section{
+    margin-top: 5rem;
+}
+
+.contact-us-title{
+    margin-left: 10rem;
+    color: #10101A;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact-us-form{
+    margin-left: 10rem;
+}
+
+.contact-us-form label{
+   font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.contact-us-form input{
+    height: 60px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    width: 80%;
+    border: 1px solid #c1bdbd;
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+}
+
+.contact-us-form textarea{
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #c1bdbd;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.contact-us-form label{
+    margin-bottom: 0.9rem;
+}
+
+.contact-us-form-button{
+    background: #FFD400 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    width: 217px;
+    height: 59px;
+    border: none;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-us-image{
+    width: 60%;
+
+}
+
+/*footer section*/
+.footer-section-wrapper{
+    background: #7878FF 0 0 no-repeat padding-box;
+    height: 400px;
+    margin-top: 5rem;
+}
+
+.footer-section{
+    border: 1px solid red;
+}
+
+.footer-section-column-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-column-wrapper h6{
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.footer-section-column-wrapper span{
+    color: #FFFFFF;
+}

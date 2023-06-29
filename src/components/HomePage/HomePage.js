@@ -6,6 +6,11 @@ import './HomePage.css'
 import heroSectionImage from '../../assets/hero-section-image.png'
 import webDesignImage from '../../assets/web-design-icon.png'
 import marketingImage from '../../assets/marketing-icon.png'
+import socialMediaImage from '../../assets/social-media-icon.png'
+import seoImage from '../../assets/seo-icon.png'
+import caseStudyImage from '../../assets/case-study-image.png'
+import whyProactiveTeamImage from '../../assets/why-proactive-team-image.png'
+import contactUsImage from '../../assets/contact-us-image.png'
 
 const HomePage = () => {
     return (
@@ -78,11 +83,13 @@ const HomePage = () => {
                             </Col>
                             <Col sm={6}>
                                 <div className="service-container">
-                                    <h2>Social Media Management</h2>
+                                    <img src={socialMediaImage} alt="Social Media"/>
+                                    <h2>Social Media</h2>
                                 </div>
                             </Col>
                             <Col sm={6}>
                                 <div className="service-container">
+                                    <img src={seoImage} alt="SEO"/>
                                     <h2>SEO</h2>
                                 </div>
                             </Col>
@@ -97,7 +104,7 @@ const HomePage = () => {
                 <Row className="case-study-section-first-row">
                     <Col sm={6}>
                         <div className="case-study-section-left-column">
-
+                            <img src={caseStudyImage} className="case-study-image" alt="Case Study"/>
                         </div>
                     </Col>
 
@@ -121,28 +128,29 @@ const HomePage = () => {
 
             </Container>
 
-            {/*About us section*/}
-            <Container className="about-us-section" fluid>
-                <Row className="about-us-section-first-row">
+            {/*Why Proactive Team section*/}
+            <Container className="why-proactive-team-section" fluid>
+                <Row className="why-proactive-team-section-first-row">
                     <Col sm={6}>
-                        <div className="about-us-section-left-column">
-                            <h2 className="about-us-section-left-column-title">About Us</h2>
-                            <p className="about-us-section-left-column-paragraph">
+                        <div className="why-proactive-team-section-left-column">
+                            <h2 className="why-proactive-team-section-left-column-title">Why Proactive Team?</h2>
+                            <p className="why-proactive-team-section-left-column-paragraph">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
                                 aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
                                 faucibus. Vestibulum eu quam a nunc venenatis interdum venenatis. Pellentesque pulvinar
                                 odio nec arcu maximus vestibulum.
                             </p>
 
-                            <button className="about-us-section-left-column-button">
+                            <button className="why-proactive-team-section-left-column-button">
                                 Learn More
                             </button>
                         </div>
                     </Col>
 
-                    <Col>
-                        <div className="about-us-section-right-column">
-
+                    <Col sm={6}>
+                        <div className="why-proactive-team-section-right-column">
+                            <img src={whyProactiveTeamImage} alt="Why Proactive Team?"
+                                 className="why-proactive-team-image"/>
                         </div>
                     </Col>
                 </Row>
@@ -151,22 +159,112 @@ const HomePage = () => {
             {/*Testimonials section*/}
             <Container className="testimonial-section" fluid>
                 <Row className="testimonial-section-first-row">
-                    <Col>
+                    <Col className="testimonial-section-first-row-inner-wrapper" sm={10}>
+                        <div className="testimonial-wrapper">
+                            <h2 className="testimonial-title">What Our Clients Are Saying</h2>
+                            <p className="testimonial-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
+                                aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
+                                faucibus.
+                            </p>
+                            <span className="testimonial-giver">Mike D.</span>
+                        </div>
 
-                        <h2 className="testimonial-section-title">Testimonials</h2>
                     </Col>
 
                 </Row>
-                <Row className="testimonial-section-second-row">
-                    <div className="testimonial-section-second-row-inner-wrapper">
-                        <Col></Col>
-                        <Col></Col>
-                        <Col></Col>
-                    </div>
 
-                </Row>
             </Container>
 
+            {/*Contact us section*/}
+            <Container className="contact-us-section" fluid>
+
+                <h2 className="contact-us-title">Free Consultation</h2>
+
+                <Row>
+                    <Col sm={6}>
+                        <form className="contact-us-form">
+                            <div>
+                                <label htmlFor="name">Full Name</label> <br/>
+                                <input
+                                    type="text"
+                                    id="name"
+
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="email">Email</label> <br/>
+                                <input
+                                    type="email"
+                                    id="email"
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="name">Company Name</label><br/>
+                                <input
+                                    type="text"
+                                    id="company-name"
+
+                                />
+                            </div>
+
+                            <div>
+                                <label htmlFor="message">Message</label> <br/>
+                                <textarea id="message" rows="4" cols="50"></textarea>
+                            </div>
+                            <button type="submit" className="contact-us-form-button">Submit</button>
+                        </form>
+                    </Col>
+                    <Col sm={6}>
+                        <img src={contactUsImage} alt="Contact Us" className="contact-us-image"/>
+                    </Col>
+                </Row>
+
+            </Container>
+
+            {/*footer*/}
+            <footer className="footer-section-wrapper">
+                <Container className="footer-section">
+
+                    <Row>
+                        <Col sm={3}>
+                            <div className="footer-section-column-wrapper">
+                                <h6>Company</h6>
+                                <span>About</span>
+                                <span>Solutions</span>
+                                <span>Projects</span>
+                                <span>Blog</span>
+                            </div>
+                        </Col>
+                        <Col sm={3}>
+                            <div className="footer-section-column-wrapper">
+                                <h6>Support</h6>
+                                <span>Contact</span>
+                                <span>Sitemap</span>
+                            </div>
+
+
+                        </Col>
+                        <Col sm={3}>
+                            <div className="footer-section-column-wrapper">
+                                <h6>Legal</h6>
+                                <span>Privacy</span>
+                                <span>Terms</span>
+                                <span>Accessibility</span>
+                                <span>Cookies</span>
+                            </div>
+                        </Col>
+                        <Col sm={3}>
+                            <div className="footer-section-column-wrapper">
+                                <h6>Join Our Newsletter</h6>
+                                <span>Get news, tips and so much more!</span>
+                            </div>
+                        </Col>
+                    </Row>
+
+                </Container>
+            </footer>
 
         </div>
     );
