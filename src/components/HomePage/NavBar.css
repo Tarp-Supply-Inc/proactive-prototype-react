@@ -1,0 +1,34 @@
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none !important;
+    color: #10101A !important;
+    font: normal normal bold 18px/24px Open Sans;
+
+}
+
+.brand-icon {
+    width: 344px;
+    height: 57px;
+    margin-left: 10rem;
+}
+
+.nav-bar-ribbon{
+    background: #7878FF 0 0 no-repeat padding-box;
+    height: 33px;
+}
+
+.nav-bar-button{
+    background: #7878FF 0 0 no-repeat padding-box;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
