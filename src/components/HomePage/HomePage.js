@@ -11,6 +11,9 @@ import seoImage from '../../assets/seo-icon.png'
 import caseStudyImage from '../../assets/case-study-image.png'
 import whyProactiveTeamImage from '../../assets/why-proactive-team-image.png'
 import contactUsImage from '../../assets/contact-us-image.png'
+import facebookIcon from '../../assets/facebook-icon.png'
+import instagramIcon from '../../assets/instagram-icon.png'
+import youtubeIcon from '../../assets/youtube-icon.png'
 
 const HomePage = () => {
     return (
@@ -22,11 +25,11 @@ const HomePage = () => {
                 <Row className="hero-section-first-row">
                     <Col sm={5}>
                         <div className="hero-section-message-container">
-                            <h1> Helping Local</h1>
+                            <h1> Helping Your</h1>
                             <h1> Businesses Stand Out</h1>
                         </div>
 
-                        <button className="hero-section-button">Get Started Now</button>
+                        <button className="hero-section-button">Book Now</button>
 
                     </Col>
 
@@ -36,8 +39,8 @@ const HomePage = () => {
                 </Row>
 
                 <Row className="justify-content-sm-center hero-section-second-row">
-                    <Col className="grow-business-banner" sm={10}>
-                        <h2>Everything you need to grow your business</h2>
+                    <Col className="grow-business-banner" sm={9}>
+                        <h2>We offer the digital solutions to grow your business</h2>
                     </Col>
 
                 </Row>
@@ -78,7 +81,7 @@ const HomePage = () => {
                             <Col sm={6}>
                                 <div className="service-container">
                                     <img src={marketingImage} alt="Marketing"/>
-                                    <h2>Marketing</h2>
+                                    <h2>Digital Marketing</h2>
                                 </div>
                             </Col>
                             <Col sm={6}>
@@ -90,7 +93,7 @@ const HomePage = () => {
                             <Col sm={6}>
                                 <div className="service-container">
                                     <img src={seoImage} alt="SEO"/>
-                                    <h2>SEO</h2>
+                                    <h2>SEO & SEM</h2>
                                 </div>
                             </Col>
                         </Row>
@@ -177,6 +180,7 @@ const HomePage = () => {
             </Container>
 
             {/*Contact us section*/}
+            {/*TODO: make smaller*/}
             <Container className="contact-us-section" fluid>
 
                 <h2 className="contact-us-title">Free Consultation</h2>
@@ -225,7 +229,7 @@ const HomePage = () => {
 
             {/*footer*/}
             <footer className="footer-section-wrapper">
-                <Container className="footer-section">
+                <Container className="footer-section" >
 
                     <Row>
                         <Col sm={3}>
@@ -259,9 +263,35 @@ const HomePage = () => {
                             <div className="footer-section-column-wrapper">
                                 <h6>Join Our Newsletter</h6>
                                 <span>Get news, tips and so much more!</span>
+                                <form>
+                                    <div>
+                                        <input
+                                            type="email"
+                                            id="newsletter-email"
+                                            placeholder="Enter your email"
+                                            className="newsletter-input"
+                                        />
+                                    </div>
+
+                                    <button type="submit" id="footer-submit" className="newsletter-submit">Submit
+                                    </button>
+                                </form>
                             </div>
                         </Col>
                     </Row>
+                    <div className="social-media-row">
+                        <a href=""><img src={facebookIcon} alt="facebook"/></a>
+                        <a href="">
+                            <img src={youtubeIcon} alt="youtube" />
+                        </a>
+                       <a href="">
+                           <img src={instagramIcon} alt="instagram"/>
+                       </a>
+
+                    </div>
+                    <hr className="footer-section-divider"/>
+                    <span
+                        className="footer-section-copy-right">© COPYRIGHT 2023 TARP SUPPLY INC. ALL RIGHTS RESERVED.</span>
 
                 </Container>
             </footer>

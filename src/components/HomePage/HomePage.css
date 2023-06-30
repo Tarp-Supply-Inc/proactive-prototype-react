@@ -18,8 +18,8 @@
 }
 
 .hero-section-image {
-    width: 732px;
-    height: 566px;
+    width: 80%;
+
 }
 
 .hero-section-button {
@@ -104,7 +104,6 @@
     height: 266px;
     background: #F6F6F6 0 0 no-repeat padding-box;
     border-radius: 10px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +132,7 @@
     align-items: center;
 }
 
-.case-study-section-left-column{
+.case-study-section-left-column {
     border-radius: 10px;
     height: 350px;
     width: 669px;
@@ -141,11 +140,11 @@
 }
 
 
-
-.case-study-image{
+.case-study-image {
     height: 100%;
     object-fit: contain;
 }
+
 .case-study-section-right-column {
     display: flex;
     flex-direction: column;
@@ -187,76 +186,78 @@
     margin-left: 10rem;
 }
 
-.why-proactive-team-image{
+.why-proactive-team-image {
     width: 80%;
     object-fit: contain;
 }
 
 /*Testimonial*/
-.testimonial-section{
+.testimonial-section {
     margin-top: 10rem;
 }
-.testimonial-section-title{
+
+.testimonial-section-title {
     color: #10101A;
     font-size: 45px;
     font-weight: 700;
     text-align: center;
 }
 
-.testimonial-section-first-row{
+.testimonial-section-first-row {
     justify-content: center;
 }
-.testimonial-section-first-row-inner-wrapper{
+
+.testimonial-section-first-row-inner-wrapper {
     height: 474px;
     background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 0px 15px;
 }
 
-.testimonial-wrapper{
+.testimonial-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    color:  #FFFFFF;
+    color: #FFFFFF;
 }
 
-.testimonial-title{
+.testimonial-title {
     margin-bottom: 3rem;
 
 }
 
-.testimonial-body{
+.testimonial-body {
     width: 55%;
 }
 
-.testimonial-giver{
+.testimonial-giver {
     font-weight: 600;
 }
 
 /*Contact us section*/
-.contact-us-section{
+.contact-us-section {
     margin-top: 5rem;
 }
 
-.contact-us-title{
+.contact-us-title {
     margin-left: 10rem;
     color: #10101A;
     font-size: 45px;
     font-weight: 700;
 }
 
-.contact-us-form{
+.contact-us-form {
     margin-left: 10rem;
 }
 
-.contact-us-form label{
-   font-weight: 700;
+.contact-us-form label {
+    font-weight: 700;
     letter-spacing: 0;
     color: #707070;
 }
 
-.contact-us-form input{
+.contact-us-form input {
     height: 60px;
     background: #FFFFFF 0 0 no-repeat padding-box;
     width: 80%;
@@ -265,18 +266,18 @@
     margin-bottom: 1.2rem;
 }
 
-.contact-us-form textarea{
+.contact-us-form textarea {
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #c1bdbd;
     border-radius: 5px;
     width: 80%;
 }
 
-.contact-us-form label{
+.contact-us-form label {
     margin-bottom: 0.9rem;
 }
 
-.contact-us-form-button{
+.contact-us-form-button {
     background: #FFD400 0 0 no-repeat padding-box;
     border-radius: 10px;
     width: 217px;
@@ -288,33 +289,81 @@
     font-weight: 600;
 }
 
-.contact-us-image{
+.contact-us-image {
     width: 60%;
 
 }
 
 /*footer section*/
-.footer-section-wrapper{
+.footer-section-wrapper {
     background: #7878FF 0 0 no-repeat padding-box;
     height: 400px;
     margin-top: 5rem;
+    display: flex;
+    align-items: center;
 }
 
-.footer-section{
-    border: 1px solid red;
-}
 
-.footer-section-column-wrapper{
+
+.footer-section-column-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.footer-section-column-wrapper h6{
+.footer-section-column-wrapper h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-section-column-wrapper span {
+    margin-bottom: 10px;
+}
+
+.footer-section-column-wrapper h6 {
     text-align: left;
     letter-spacing: 0;
     color: #FFFFFF;
 }
 
-.footer-section-column-wrapper span{
+.footer-section-column-wrapper span {
     color: #FFFFFF;
+}
+
+.newsletter-input{
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+}
+
+.newsletter-submit{
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    height: 45px;
+    margin-top: 20px;
+    color: #10101A;
+    font-weight: 700;
+}
+
+.footer-section-divider{
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer-section-copy-right{
+    color: #cecece;
+    font-size: 15px;
+}
+
+.social-media-row{
+    margin-top: 20px;
+}
+.social-media-row img{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
 }

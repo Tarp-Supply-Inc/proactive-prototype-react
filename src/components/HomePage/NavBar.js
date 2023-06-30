@@ -9,6 +9,9 @@ const NavBar = () => {
 
         <Container className="nav-bar" fluid>
             <Row>
+                <Col sm={12} className="nav-bar-ribbon"></Col>
+            </Row>
+            <Row style={{marginTop:"5rem"}}>
                 <Col sm={6}>
                     <img src={brand_icon} alt="brand icon" className="brand-icon"/>
                 </Col>
@@ -30,6 +33,9 @@ const NavBar = () => {
 
                         <Col sm={2}>
                             <a href="#contact-us">Contact Us</a>
+                        </Col>
+                        <Col sm={2}>
+                            <button className="nav-bar-button">Free Consultation</button>
                         </Col>
                     </Row>
 
