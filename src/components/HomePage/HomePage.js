@@ -280,11 +280,11 @@ const HomePage = () => {
                         </Col>
                     </Row>
                     <div className="social-media-row">
-                        <a href=""><img src={facebookIcon} alt="facebook"/></a>
-                        <a href="">
+                        <a href="https://www.facebook.com/tarpsupply/"><img src={facebookIcon} alt="facebook"/></a>
+                        <a href="https://www.youtube.com/user/tarpsupply">
                             <img src={youtubeIcon} alt="youtube" />
                         </a>
-                       <a href="">
+                       <a href="https://www.instagram.com/tarpsupplyinc/?hl=en">
                            <img src={instagramIcon} alt="instagram"/>
                        </a>
 
