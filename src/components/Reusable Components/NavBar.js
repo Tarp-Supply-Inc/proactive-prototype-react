@@ -11,7 +11,7 @@ const NavBar = () => {
             <Row>
                 <Col sm={12} className="nav-bar-ribbon"></Col>
             </Row>
-            <Row style={{marginTop:"5rem"}}>
+            <Row style={{marginTop: "5rem"}}>
                 <Col sm={6}>
                     <img src={brand_icon} alt="brand icon" className="brand-icon"/>
                 </Col>
@@ -20,19 +20,19 @@ const NavBar = () => {
                 <Col>
                     <Row style={{alignItems: "center"}}>
                         <Col sm={2}>
-                            <a href="#services">Services</a>
+                            <a href="#services" className="nav-bar-link">Services</a>
                         </Col>
 
                         <Col sm={2}>
-                            <a href="#work">Work</a>
+                            <a href="#work" className="nav-bar-link">Portfolio</a>
                         </Col>
 
                         <Col sm={2}>
-                            <a href="#about">About</a>
+                            <a href="#about" className="nav-bar-link">Packages</a>
                         </Col>
 
                         <Col sm={2}>
-                            <a href="#contact-us">Contact Us</a>
+                            <a href="#contact-us" className="nav-bar-link">About</a>
                         </Col>
                         <Col sm={2}>
                             <button className="nav-bar-button">Free Consultation</button>

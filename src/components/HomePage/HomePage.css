@@ -66,9 +66,6 @@
 
 /*Services section*/
 
-.services-section-first-row {
-    align-items: center;
-}
 
 .services-section-first-row-title {
     width: 183px;
@@ -128,9 +125,7 @@
     margin-top: 8rem;
 }
 
-.case-study-section-first-row {
-    align-items: center;
-}
+
 
 .case-study-section-left-column {
     border-radius: 10px;
@@ -178,9 +173,6 @@
 }
 
 
-.why-proactive-team-section-first-row {
-    align-items: center;
-}
 
 .why-proactive-team-section-left-column {
     margin-left: 10rem;
@@ -203,9 +195,6 @@
     text-align: center;
 }
 
-.testimonial-section-first-row {
-    justify-content: center;
-}
 
 .testimonial-section-first-row-inner-wrapper {
     height: 474px;
@@ -242,8 +231,9 @@
 
 .contact-us-title {
     margin-left: 10rem;
+    margin-bottom: 2rem;
     color: #10101A;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -257,8 +247,8 @@
     color: #707070;
 }
 
-.contact-us-form input {
-    height: 60px;
+.contact-us-form input, .contact-us-form select {
+    height: 40px;
     background: #FFFFFF 0 0 no-repeat padding-box;
     width: 80%;
     border: 1px solid #c1bdbd;
@@ -276,6 +266,7 @@
 .contact-us-form label {
     margin-bottom: 0.9rem;
 }
+
 
 .contact-us-form-button {
     background: #FFD400 0 0 no-repeat padding-box;

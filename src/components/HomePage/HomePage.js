@@ -36,7 +36,7 @@ const HomePage = () => {
                     </Col>
                 </Row>
 
-                <Row className="justify-content-sm-center hero-section-second-row">
+                <Row className="justify-content-center hero-section-second-row">
                     <Col className="grow-business-banner" sm={9}>
                         <h2>We offer the digital solutions to grow your business</h2>
                     </Col>
@@ -48,7 +48,7 @@ const HomePage = () => {
             {/*services section*/}
 
             <Container className="services-section" fluid>
-                <Row className="services-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <Row>
                             <Col sm={12}>
@@ -69,7 +69,7 @@ const HomePage = () => {
                     </Col>
 
                     <Col sm={5}>
-                        <Row className="services-offered-container">
+                        <Row>
                             <Col sm={6}>
                                 <div className="service-container">
                                     <img src={webDesignImage} alt="Web Design"/>
@@ -102,7 +102,7 @@ const HomePage = () => {
             {/*case study section*/}
 
             <Container className="case-study-section" fluid>
-                <Row className="case-study-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <div className="case-study-section-left-column">
                             <img src={caseStudyImage} className="case-study-image" alt="Case Study"/>
@@ -131,7 +131,7 @@ const HomePage = () => {
 
             {/*Why Proactive Team section*/}
             <Container className="why-proactive-team-section" fluid>
-                <Row className="why-proactive-team-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <div className="why-proactive-team-section-left-column">
                             <h2 className="why-proactive-team-section-left-column-title">Why Proactive Team?</h2>
@@ -159,7 +159,7 @@ const HomePage = () => {
 
             {/*Testimonials section*/}
             <Container className="testimonial-section" fluid>
-                <Row className="testimonial-section-first-row">
+                <Row className="justify-content-center">
                     <Col className="testimonial-section-first-row-inner-wrapper" sm={10}>
                         <div className="testimonial-wrapper">
                             <h2 className="testimonial-title">What Our Clients Are Saying</h2>
@@ -181,7 +181,7 @@ const HomePage = () => {
             {/*TODO: make smaller*/}
             <Container className="contact-us-section" fluid>
 
-                <h2 className="contact-us-title">Free Consultation</h2>
+                <h2 className="contact-us-title">Ready To Grow Your Business?</h2>
 
                 <Row>
                     <Col sm={6}>
@@ -209,6 +209,17 @@ const HomePage = () => {
                                     id="company-name"
 
                                 />
+                            </div>
+
+                            <div>
+                                <label htmlFor="name">What services are you interested in?</label><br/>
+                                <select>
+                                    <option value=""></option>
+                                    <option value="web design">Web Design</option>
+                                    <option value="digital marketing">Digital Marketing</option>
+                                    <option value="social media">Social Media</option>
+                                    <option value="seo&sem">SEO & SEM</option>
+                                </select>
                             </div>
 
                             <div>

@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 
-a {
+.nav-bar-link {
     text-decoration: none !important;
     color: #10101A !important;
     font: normal normal bold 18px/24px Open Sans;

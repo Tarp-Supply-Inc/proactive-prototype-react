@@ -1,0 +1,18 @@
+.page-banner-container{
+    margin-top: 2rem !important;
+}
+.page-banner{
+    background: #7878FF 0 0 no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-banner h2 {
+    font: normal normal 900 45px/61px Segoe UI;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}

@@ -15,17 +15,17 @@ const Footer = () => {
                     <Col sm={3}>
                         <div className="footer-section-column-wrapper">
                             <h6>Company</h6>
-                            <span>About</span>
-                            <span>Solutions</span>
-                            <span>Projects</span>
-                            <span>Blog</span>
+                            <a href="#">About</a>
+                            <a href="#">Solutions</a>
+                            <a href="#">Projects</a>
+                            <a href="#">Blog</a>
                         </div>
                     </Col>
                     <Col sm={3}>
                         <div className="footer-section-column-wrapper">
                             <h6>Support</h6>
-                            <span>Contact</span>
-                            <span>Sitemap</span>
+                            <a href="#">Contact</a>
+                            <a href="#">Sitemap</a>
                         </div>
 
 
@@ -33,10 +33,10 @@ const Footer = () => {
                     <Col sm={3}>
                         <div className="footer-section-column-wrapper">
                             <h6>Legal</h6>
-                            <span>Privacy</span>
-                            <span>Terms</span>
-                            <span>Accessibility</span>
-                            <span>Cookies</span>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Accessibility</a>
+                            <a href="#">Cookies</a>
                         </div>
                     </Col>
                     <Col sm={3}>
