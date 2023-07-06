@@ -179,8 +179,9 @@
 }
 
 .why-proactive-team-image {
-    width: 80%;
+    width: 50%;
     object-fit: contain;
+    margin-left: 5rem;
 }
 
 /*Testimonial*/

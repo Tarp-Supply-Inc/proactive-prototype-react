@@ -137,10 +137,11 @@ const HomePage = () => {
                         <div className="why-proactive-team-section-left-column">
                             <h2 className="why-proactive-team-section-left-column-title">Why Proactive Team?</h2>
                             <p className="why-proactive-team-section-left-column-paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
-                                aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
-                                faucibus. Vestibulum eu quam a nunc venenatis interdum venenatis. Pellentesque pulvinar
-                                odio nec arcu maximus vestibulum.
+                                At Proactive Marketing, we are a young and dynamic agency with a passion for helping
+                                local businesses achieve their full potential in the digital realm. With a wealth of
+                                expertise and a finger on the pulse of the latest marketing trends, we specialize in
+                                website redesign and crafting impactful marketing campaigns that empower businesses to
+                                thrive in today's competitive landscape.
                             </p>
 
                             <button className="why-proactive-team-section-left-column-button">

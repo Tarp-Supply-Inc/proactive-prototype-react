@@ -6,11 +6,11 @@
     background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 15px;
     color: #FFFFFF;
-    height: 300px;
+    min-height: 300px;
 }
 
 .action-banner-body{
-    width: 35%;
+    width: 45%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }

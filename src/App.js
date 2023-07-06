@@ -4,15 +4,17 @@ import Services from "./components/Services/Services";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Packages from "./components/Packages/Packages";
 
 function App() {
     return (
         <div className="App">
         {/*<AboutUs/>*/}
-            {/*<HomePage/>*/}
-            {/*<Portfolio/>*/}
+        {/*    <HomePage/>*/}
+            <Portfolio/>
             {/*<ContactUs/>*/}
-            <Services/>
+            {/*<Services/>*/}
+            {/*<Packages/>*/}
         </div>
     );
 }

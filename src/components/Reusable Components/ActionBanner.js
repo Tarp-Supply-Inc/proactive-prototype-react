@@ -1,9 +1,11 @@
 import React from 'react';
 import ContentContainer from "./ContentContainer";
 import "./ActionBanner.css"
-const ActionBanner = () => {
+
+const ActionBanner = ({marginTop, marginBottom}) => {
     return (
-        <ContentContainer span={10} topMargin="8rem" bottomMargin="8rem">
+        <ContentContainer span={10} topMargin={marginTop ? marginTop : "8rem"}
+                          bottomMargin={marginBottom ? marginBottom : "8rem"}>
             <div className="action-banner">
 
                 <h2 className="action-banner-title">Let us take your business to new heights.</h2>

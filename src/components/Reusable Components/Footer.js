@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
-import facebookIcon from "../../assets/facebook-icon.png";
-import youtubeIcon from "../../assets/youtube-icon.png";
-import instagramIcon from "../../assets/instagram-icon.png";
+import facebookIcon from "../../assets/facebook-icon-colored.png";
+import youtubeIcon from "../../assets/youtube-icon-colored.png";
+import instagramIcon from "../../assets/instagram-icon-colored.png";
 import './Footer.css'
 
 const Footer = () => {

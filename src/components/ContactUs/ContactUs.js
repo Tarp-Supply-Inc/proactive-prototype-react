@@ -10,31 +10,34 @@ import youtubeIcon from "../../assets/youtube-icon.png";
 import instagramIcon from "../../assets/instagram-icon.png";
 import contactUsImage from "../../assets/contact-us-image-2.png"
 import './ContactUs.css'
+import InfoCard from "../Reusable Components/InfoCard";
 
 const ContactUs = () => {
     return (
         <div>
             <NavBar/>
             <PageBanner title="Contact Us"/>
-            <ContactForm image={contactUsImage}/>
+
 
             <ContentContainer span={10} topMargin="2rem" bottomMargin="2rem">
                 <Row>
                     <Col>
-                        <div className="info-card">
+                        <InfoCard>
                             <h3>Call Us</h3>
                             <h4>630.456.1234</h4>
                             <span><b>Office Hours</b>: M-F 8AM-5PM</span>
-                        </div>
+                        </InfoCard>
+
                     </Col>
                     <Col>
-                        <div className="info-card">
+                        <InfoCard>
                             <h3>Book a Free Consultation</h3>
                             <button>Book Now</button>
-                        </div>
+                        </InfoCard>
+
                     </Col>
                     <Col>
-                        <div className="info-card">
+                        <InfoCard>
                             <h3>Follow Us</h3>
                             <div>
                                 <div className="social-media-row">
@@ -49,12 +52,15 @@ const ContactUs = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </InfoCard>
+
                     </Col>
 
 
                 </Row>
+
             </ContentContainer>
+            <ContactForm image={contactUsImage}/>
             <Footer/>
         </div>
     );
