@@ -36,16 +36,15 @@ const AboutUs = () => {
 
                 <div className="about-us-testimonial-wrapper">
 
-                    <h2 className="about-us-testimonial-title">What Our Clients Are Saying</h2>
+                    <h2 className="about-us-testimonial-title">Websites That Convert</h2>
 
 
                     <p className="about-us-testimonial-body">
-                        Our talented team collaborate closely with each client to understand their unique
-                        vision, goals, and brand identity. We believe that a successful website is not just
-                        visually appealing but also intuitive, user-friendly, and optimized for conversions.
-                        Whether you need a complete website overhaul or a simple refresh, we'll leverage our
-                        expertise to create a digital experience that reflects your brand's personality and
-                        drives customer engagement.
+                        Our talented team collaborate closely with each client to understand their unique vision, goals,
+                        and brand identity. We believe that a successful website is not just visually appealing but also
+                        intuitive, user-friendly, and optimized for conversions. Whether you need a complete website
+                        overhaul or a simple refresh, we'll leverage our expertise to create a digital experience that
+                        reflects your brand's personality and drives customer engagement.
                     </p>
 
                 </div>

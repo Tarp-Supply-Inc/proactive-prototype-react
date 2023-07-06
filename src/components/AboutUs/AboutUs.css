@@ -7,7 +7,6 @@
     justify-content: center;
     background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 15px;
-
     margin-top: 2rem;
     color: #FFFFFF;
 }
@@ -18,7 +17,7 @@
 }
 
 .about-us-testimonial-wrapper{
-    height: 450px;
+    height: 400px;
 }
 
 .about-us-action-banner{

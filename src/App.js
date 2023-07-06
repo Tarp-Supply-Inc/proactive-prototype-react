@@ -9,9 +9,9 @@ import Packages from "./components/Packages/Packages";
 function App() {
     return (
         <div className="App">
-        {/*<AboutUs/>*/}
+        <AboutUs/>
         {/*    <HomePage/>*/}
-            <Portfolio/>
+        {/*    <Portfolio/>*/}
             {/*<ContactUs/>*/}
             {/*<Services/>*/}
             {/*<Packages/>*/}

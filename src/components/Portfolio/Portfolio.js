@@ -7,6 +7,8 @@ import './Portfolio.css'
 import {Col, Row} from "react-bootstrap";
 import ContentContainer from "../Reusable Components/ContentContainer";
 import tarpSupplyImage from "../../assets/tarp-supply-website-image.png"
+import Footer from "../Reusable Components/Footer";
+import portfolioImage from "../../assets/portfolio-page-image.png"
 
 const Portfolio = () => {
     return (
@@ -42,6 +44,11 @@ const Portfolio = () => {
                     </AwesomeSlider>
                 </div>
             </ContentContainer>
+            <div className="portfolio-page-image-container">
+                <img src={portfolioImage} alt="Girl With Arrow" className="portfolio-page-image"/>
+            </div>
+
+            <Footer/>
 
 
         </div>
