@@ -1,19 +1,19 @@
 
-.info-card h3{
+.info-card h3 {
     max-width: 70%;
     font-weight: 700;
 
 }
 
-.info-card h4{
+.info-card h4 {
     color: #707070;
 }
 
-.info-card span{
+.info-card span {
     color: #707070;
 }
 
-.info-card button{
+.info-card button {
     background: #FFD400 0 0 no-repeat padding-box;
     border-radius: 10px;
     border: none;

@@ -1,6 +1,5 @@
 
-
-.about-us-testimonial-wrapper, .about-us-action-banner{
+.about-us-testimonial-wrapper, .about-us-action-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,20 +10,20 @@
     color: #FFFFFF;
 }
 
-.about-us-testimonial-body{
+.about-us-testimonial-body {
     width: 50%;
     margin-top: 2rem;
 }
 
-.about-us-testimonial-wrapper{
+.about-us-testimonial-wrapper {
     height: 400px;
 }
 
-.about-us-action-banner{
+.about-us-action-banner {
     height: 300px;
 }
 
-.about-us-action-banner-body{
+.about-us-action-banner-body {
     width: 40%;
     margin-top: 2rem;
 }

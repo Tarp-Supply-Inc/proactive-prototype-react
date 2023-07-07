@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import './ContactForm.css'
+
 const ContactForm = ({image}) => {
     return (
         <Container className="contact-us-section" fluid>

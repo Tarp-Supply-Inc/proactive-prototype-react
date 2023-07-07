@@ -1,5 +1,6 @@
 import React from 'react';
 import './InfoCard.css'
+
 const InfoCard = ({children}) => {
     return (
         <div className="info-card">

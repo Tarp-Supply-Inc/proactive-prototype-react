@@ -1,7 +1,8 @@
-.page-banner-container{
+.page-banner-container {
     margin-top: 2rem !important;
 }
-.page-banner{
+
+.page-banner {
     background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 15px;
     opacity: 1;

@@ -1,4 +1,4 @@
-.action-banner{
+.action-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,16 +9,16 @@
     min-height: 300px;
 }
 
-.action-banner-body{
+.action-banner-body {
     width: 45%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.action-banner-button{
+.action-banner-button {
     background: #FFFFFF 0 0 no-repeat padding-box;
     border-radius: 50px;
-    border:none;
+    border: none;
     height: 59px;
     width: 200px;
     font-weight: 600;

@@ -22,7 +22,7 @@ const Portfolio = () => {
                     <AwesomeSlider className="carousel">
                         <div>
                             <Row className="align-items-center">
-                                <Col sm={{span:5,offset:1}}>
+                                <Col sm={{span: 5, offset: 1}}>
                                     <img src={tarpSupplyImage} alt="Tarp Supply Inc." className="carousel-image"/>
                                 </Col>
                                 <Col sm={5}>

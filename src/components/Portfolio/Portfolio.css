@@ -1,37 +1,38 @@
 
-.carousel-container{
+.carousel-container {
     display: flex;
     justify-content: center;
 
 }
-.carousel{
+
+.carousel {
     width: 90%;
     height: 350px;
     margin-top: 5rem;
     margin-bottom: 20rem;
 }
 
-.carousel-image{
+.carousel-image {
     width: 431px;
 }
 
 /*this modifies the style of the 3rd party carousel*/
-.awssld__content{
+.awssld__content {
     background-color: #FFFFFF;
     /*border: 1px solid red;*/
 }
 
-.carousel-title{
+.carousel-title {
     font-weight: 700;
 }
 
-.carousel-body{
+.carousel-body {
     color: #707070;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.carousel-button{
+.carousel-button {
     border: none;
     background: #7878FF 0 0 no-repeat padding-box;
     border-radius: 10px;
@@ -41,10 +42,11 @@
     font-weight: 500;
 }
 
-.portfolio-page-image-container{
+.portfolio-page-image-container {
     position: relative;
 }
-.portfolio-page-image{
+
+.portfolio-page-image {
     width: 500px;
     position: absolute;
     right: 0;
