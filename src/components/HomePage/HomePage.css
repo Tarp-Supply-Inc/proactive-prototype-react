@@ -66,9 +66,6 @@
 
 /*Services section*/
 
-.services-section-first-row {
-    align-items: center;
-}
 
 .services-section-first-row-title {
     width: 183px;
@@ -128,9 +125,6 @@
     margin-top: 8rem;
 }
 
-.case-study-section-first-row {
-    align-items: center;
-}
 
 .case-study-section-left-column {
     border-radius: 10px;
@@ -178,17 +172,14 @@
 }
 
 
-.why-proactive-team-section-first-row {
-    align-items: center;
-}
-
 .why-proactive-team-section-left-column {
     margin-left: 10rem;
 }
 
 .why-proactive-team-image {
-    width: 80%;
+    width: 50%;
     object-fit: contain;
+    margin-left: 5rem;
 }
 
 /*Testimonial*/
@@ -203,9 +194,6 @@
     text-align: center;
 }
 
-.testimonial-section-first-row {
-    justify-content: center;
-}
 
 .testimonial-section-first-row-inner-wrapper {
     height: 474px;
@@ -235,135 +223,5 @@
     font-weight: 600;
 }
 
-/*Contact us section*/
-.contact-us-section {
-    margin-top: 5rem;
-}
-
-.contact-us-title {
-    margin-left: 10rem;
-    color: #10101A;
-    font-size: 45px;
-    font-weight: 700;
-}
-
-.contact-us-form {
-    margin-left: 10rem;
-}
-
-.contact-us-form label {
-    font-weight: 700;
-    letter-spacing: 0;
-    color: #707070;
-}
-
-.contact-us-form input {
-    height: 60px;
-    background: #FFFFFF 0 0 no-repeat padding-box;
-    width: 80%;
-    border: 1px solid #c1bdbd;
-    border-radius: 5px;
-    margin-bottom: 1.2rem;
-}
-
-.contact-us-form textarea {
-    background: #FFFFFF 0 0 no-repeat padding-box;
-    border: 1px solid #c1bdbd;
-    border-radius: 5px;
-    width: 80%;
-}
-
-.contact-us-form label {
-    margin-bottom: 0.9rem;
-}
-
-.contact-us-form-button {
-    background: #FFD400 0 0 no-repeat padding-box;
-    border-radius: 10px;
-    width: 217px;
-    height: 59px;
-    border: none;
-    margin-top: 2rem;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.contact-us-image {
-    width: 60%;
-
-}
-
-/*footer section*/
-.footer-section-wrapper {
-    background: #7878FF 0 0 no-repeat padding-box;
-    height: 400px;
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-}
 
 
-
-.footer-section-column-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-section-column-wrapper h6 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.footer-section-column-wrapper span {
-    margin-bottom: 10px;
-}
-
-.footer-section-column-wrapper h6 {
-    text-align: left;
-    letter-spacing: 0;
-    color: #FFFFFF;
-}
-
-.footer-section-column-wrapper span {
-    color: #FFFFFF;
-}
-
-.newsletter-input{
-    background: #FFFFFF 0 0 no-repeat padding-box;
-    border:none;
-    border-radius: 5px;
-    width: 100%;
-    height: 50px;
-    font-size: 15px;
-}
-
-.newsletter-submit{
-    background: #FFFFFF 0 0 no-repeat padding-box;
-    border-radius: 10px;
-    border: none;
-    width: 180px;
-    height: 45px;
-    margin-top: 20px;
-    color: #10101A;
-    font-weight: 700;
-}
-
-.footer-section-divider{
-    border: 1px solid #FFFFFF;
-    margin-top: 20px;
-}
-
-.footer-section-copy-right{
-    color: #cecece;
-    font-size: 15px;
-}
-
-.social-media-row{
-    margin-top: 20px;
-}
-.social-media-row img{
-    width: 38px;
-    height: 38px;
-    margin-right: 10px;
-}

@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from "./NavBar";
+import NavBar from "../Reusable Components/NavBar";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import './HomePage.css'
@@ -11,9 +11,8 @@ import seoImage from '../../assets/seo-icon.png'
 import caseStudyImage from '../../assets/case-study-image.png'
 import whyProactiveTeamImage from '../../assets/why-proactive-team-image.png'
 import contactUsImage from '../../assets/contact-us-image.png'
-import facebookIcon from '../../assets/facebook-icon.png'
-import instagramIcon from '../../assets/instagram-icon.png'
-import youtubeIcon from '../../assets/youtube-icon.png'
+import Footer from "../Reusable Components/Footer";
+import ContactForm from "../Reusable Components/ContactForm";
 
 const HomePage = () => {
     return (
@@ -25,8 +24,8 @@ const HomePage = () => {
                 <Row className="hero-section-first-row">
                     <Col sm={5}>
                         <div className="hero-section-message-container">
-                            <h1> Helping Your</h1>
-                            <h1> Businesses Stand Out</h1>
+                            <h1> Helping Your Business</h1>
+                            <h1> Stand Out</h1>
                         </div>
 
                         <button className="hero-section-button">Book Now</button>
@@ -38,7 +37,7 @@ const HomePage = () => {
                     </Col>
                 </Row>
 
-                <Row className="justify-content-sm-center hero-section-second-row">
+                <Row className="justify-content-center hero-section-second-row">
                     <Col className="grow-business-banner" sm={9}>
                         <h2>We offer the digital solutions to grow your business</h2>
                     </Col>
@@ -50,7 +49,7 @@ const HomePage = () => {
             {/*services section*/}
 
             <Container className="services-section" fluid>
-                <Row className="services-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <Row>
                             <Col sm={12}>
@@ -71,7 +70,7 @@ const HomePage = () => {
                     </Col>
 
                     <Col sm={5}>
-                        <Row className="services-offered-container">
+                        <Row>
                             <Col sm={6}>
                                 <div className="service-container">
                                     <img src={webDesignImage} alt="Web Design"/>
@@ -104,7 +103,7 @@ const HomePage = () => {
             {/*case study section*/}
 
             <Container className="case-study-section" fluid>
-                <Row className="case-study-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <div className="case-study-section-left-column">
                             <img src={caseStudyImage} className="case-study-image" alt="Case Study"/>
@@ -133,15 +132,16 @@ const HomePage = () => {
 
             {/*Why Proactive Team section*/}
             <Container className="why-proactive-team-section" fluid>
-                <Row className="why-proactive-team-section-first-row">
+                <Row className="align-items-center">
                     <Col sm={6}>
                         <div className="why-proactive-team-section-left-column">
                             <h2 className="why-proactive-team-section-left-column-title">Why Proactive Team?</h2>
                             <p className="why-proactive-team-section-left-column-paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut mollis enim. Fusce
-                                aliquam fringilla sapien, et viverra elit viverra ut. Etiam interdum iaculis nunc et
-                                faucibus. Vestibulum eu quam a nunc venenatis interdum venenatis. Pellentesque pulvinar
-                                odio nec arcu maximus vestibulum.
+                                At Proactive Marketing, we are a young and dynamic agency with a passion for helping
+                                local businesses achieve their full potential in the digital realm. With a wealth of
+                                expertise and a finger on the pulse of the latest marketing trends, we specialize in
+                                website redesign and crafting impactful marketing campaigns that empower businesses to
+                                thrive in today's competitive landscape.
                             </p>
 
                             <button className="why-proactive-team-section-left-column-button">
@@ -161,7 +161,7 @@ const HomePage = () => {
 
             {/*Testimonials section*/}
             <Container className="testimonial-section" fluid>
-                <Row className="testimonial-section-first-row">
+                <Row className="justify-content-center">
                     <Col className="testimonial-section-first-row-inner-wrapper" sm={10}>
                         <div className="testimonial-wrapper">
                             <h2 className="testimonial-title">What Our Clients Are Saying</h2>
@@ -181,120 +181,10 @@ const HomePage = () => {
 
             {/*Contact us section*/}
             {/*TODO: make smaller*/}
-            <Container className="contact-us-section" fluid>
-
-                <h2 className="contact-us-title">Free Consultation</h2>
-
-                <Row>
-                    <Col sm={6}>
-                        <form className="contact-us-form">
-                            <div>
-                                <label htmlFor="name">Full Name</label> <br/>
-                                <input
-                                    type="text"
-                                    id="name"
-
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email">Email</label> <br/>
-                                <input
-                                    type="email"
-                                    id="email"
-                                />
-                            </div>
-
-                            <div>
-                                <label htmlFor="name">Company Name</label><br/>
-                                <input
-                                    type="text"
-                                    id="company-name"
-
-                                />
-                            </div>
-
-                            <div>
-                                <label htmlFor="message">Message</label> <br/>
-                                <textarea id="message" rows="4" cols="50"></textarea>
-                            </div>
-                            <button type="submit" className="contact-us-form-button">Submit</button>
-                        </form>
-                    </Col>
-                    <Col sm={6}>
-                        <img src={contactUsImage} alt="Contact Us" className="contact-us-image"/>
-                    </Col>
-                </Row>
-
-            </Container>
+            <ContactForm image={contactUsImage}/>
 
             {/*footer*/}
-            <footer className="footer-section-wrapper">
-                <Container className="footer-section" >
-
-                    <Row>
-                        <Col sm={3}>
-                            <div className="footer-section-column-wrapper">
-                                <h6>Company</h6>
-                                <span>About</span>
-                                <span>Solutions</span>
-                                <span>Projects</span>
-                                <span>Blog</span>
-                            </div>
-                        </Col>
-                        <Col sm={3}>
-                            <div className="footer-section-column-wrapper">
-                                <h6>Support</h6>
-                                <span>Contact</span>
-                                <span>Sitemap</span>
-                            </div>
-
-
-                        </Col>
-                        <Col sm={3}>
-                            <div className="footer-section-column-wrapper">
-                                <h6>Legal</h6>
-                                <span>Privacy</span>
-                                <span>Terms</span>
-                                <span>Accessibility</span>
-                                <span>Cookies</span>
-                            </div>
-                        </Col>
-                        <Col sm={3}>
-                            <div className="footer-section-column-wrapper">
-                                <h6>Join Our Newsletter</h6>
-                                <span>Get news, tips and so much more!</span>
-                                <form>
-                                    <div>
-                                        <input
-                                            type="email"
-                                            id="newsletter-email"
-                                            placeholder="Enter your email"
-                                            className="newsletter-input"
-                                        />
-                                    </div>
-
-                                    <button type="submit" id="footer-submit" className="newsletter-submit">Submit
-                                    </button>
-                                </form>
-                            </div>
-                        </Col>
-                    </Row>
-                    <div className="social-media-row">
-                        <a href="https://www.facebook.com/tarpsupply/"><img src={facebookIcon} alt="facebook"/></a>
-                        <a href="https://www.youtube.com/user/tarpsupply">
-                            <img src={youtubeIcon} alt="youtube" />
-                        </a>
-                       <a href="https://www.instagram.com/tarpsupplyinc/?hl=en">
-                           <img src={instagramIcon} alt="instagram"/>
-                       </a>
-
-                    </div>
-                    <hr className="footer-section-divider"/>
-                    <span
-                        className="footer-section-copy-right">© COPYRIGHT 2023 TARP SUPPLY INC. ALL RIGHTS RESERVED.</span>
-
-                </Container>
-            </footer>
+            <Footer/>
 
         </div>
     );
